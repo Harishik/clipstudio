@@ -1,0 +1,13 @@
+{
+  "name": "Example GTA 6 clipping campaign",
+  "source": "https://whop.com/...",
+  "rate_per_1k_views_usd": 0.4,
+  "platforms": ["youtube", "tiktok", "instagram"],
+  "min_secs": 15,
+  "max_secs": 60,
+  "required_hashtags": ["#gta6"],
+  "required_mentions": ["@streamerhandle"],
+  "banned_words": ["leak", "free"],
+  "require_credit": true,
+  "notes": "Post within 48 h of the stream. Watermark allowed. Submit links in the campaign dashboard."
+}

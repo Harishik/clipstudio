@@ -1,0 +1,46 @@
+# ClipStudio config — copy to ~/.clipstudio/config.toml (`clipstudio setup` does it for you)
+
+workspace = "~/ClipStudio"        # jobs/, queue.json, outbox/, scoreboard.csv live here
+language = "auto"                 # spoken language for captions: auto | en | hi | es | pt ...
+unicode_font = ""                 # font for non-Latin captions (auto-detected on macOS/Linux/Windows)
+whisper_model = "small"           # tiny | base | small | medium | large-v3 (bigger = better, slower)
+font = ""                         # optional custom caption font (.ttf); default: bundled Anton
+music_dir = ""                    # folder of royalty-free tracks for --music auto (default: assets/music)
+music_volume_db = -22             # music bed level before ducking under the voice
+
+[brand]
+handle = "@yourhandle"            # used in CTAs / descriptions
+watermark = ""                    # small text on the video (empty = none)
+
+[render]
+layout = "auto"                   # auto | facecam | blur | fill
+caption_style = "auto"            # auto (best per clip) | stream | hormozi | beast | box | karaoke | spotlight | neon | minimal
+max_words_per_line = 0            # 0 = the style's own (stream=1, hormozi=2, box=3, karaoke=4)
+caption_size = 0                  # 0 = the style's own size (auto-adjusts per word)
+accent = "#FFE600"                # highlight / title box colour
+
+[post]
+platforms = ["youtube", "tiktok", "instagram"]   # default targets; choose per clip with --platforms
+auto_post = false                 # false = every queued post waits for `clipstudio approve`
+headless = false                  # true = post without showing the browser window
+export_only = []                  # platforms to export as files instead of posting (e.g. ["facebook"])
+timezone = "UTC"                 # IANA name, e.g. Asia/Kolkata, America/New_York
+
+[schedule]                        # posting slots per platform (local time, from [post].timezone)
+youtube = ["12:00", "17:00", "20:00"]
+tiktok = ["11:00", "19:00", "21:00"]
+instagram = ["11:00", "18:00"]
+x = ["09:00", "13:00", "18:00"]
+facebook = ["13:00"]
+
+[daily]                           # `clipstudio daily` — what your scheduled task runs every day
+game = "gta 6"                    # live streams to look for (Twitch + YouTube)
+channels = []                     # preferred channels, checked first, e.g. ["https://www.youtube.com/@ZerkaaPlays", "https://www.twitch.tv/ohnepixel"]
+video_query = "GTA 6"             # YouTube search for new videos to clip (gameplay, walkthroughs, funny moments...)
+live_minutes = 60                 # how long to record live streams per run
+max_streams = 2                   # live streams recorded in parallel
+min_viewers = 500
+videos_per_day = 2                # new videos processed per run
+clips_per_source = 3              # clips per source per run, any number (override with `daily --clips N`)
+platforms = ["youtube", "tiktok", "instagram"]
+lang = ""                         # only streams in this language (e.g. "en"); empty = any

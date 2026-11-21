@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" font-family="Poppins, Montserrat, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0a16"/><stop offset="1" stop-color="#1e1036"/></linearGradient>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c77dff"/></marker>
+  </defs>
+  <rect width="1200" height="430" rx="22" fill="url(#bg)"/>
+  <text x="600" y="48" text-anchor="middle" fill="#fff" font-size="26" font-weight="800">How ClipStudio turns hours of footage into viral shorts</text>
+
+  <!-- sources -->
+  <g font-size="14" fill="#fff">
+    <rect x="30" y="85" width="190" height="62" rx="12" fill="#ffffff0a" stroke="#ffffff55"/>
+    <text x="125" y="111" text-anchor="middle" font-weight="800">LIVE STREAMS</text>
+    <text x="125" y="132" text-anchor="middle" fill="#a0a0a8" font-size="12">Twitch + YouTube, recorded live</text>
+    <rect x="30" y="165" width="190" height="62" rx="12" fill="#ffffff0a" stroke="#ffffff55"/>
+    <text x="125" y="191" text-anchor="middle" font-weight="800">VODs / PAST STREAMS</text>
+    <text x="125" y="212" text-anchor="middle" fill="#a0a0a8" font-size="12">audio-only scan, no full download</text>
+    <rect x="30" y="245" width="190" height="62" rx="12" fill="#ffffff0a" stroke="#ffffff55"/>
+    <text x="125" y="271" text-anchor="middle" font-weight="800">ANY YOUTUBE VIDEO</text>
+    <text x="125" y="292" text-anchor="middle" fill="#a0a0a8" font-size="12">gameplay · walkthroughs · funny</text>
+    <text x="125" y="340" text-anchor="middle" fill="#e040fb" font-size="13" font-weight="800">NO LOGIN · NO API KEYS</text>
+  </g>
+
+  <!-- signals -->
+  <rect x="262" y="85" width="210" height="222" rx="14" fill="#ffffff0d" stroke="#ffffff33"/>
+  <text x="367" y="112" text-anchor="middle" fill="#c77dff" font-size="15" font-weight="800">FIND THE MOMENT</text>
+  <g fill="#e6e6f0" font-size="13">
+    <text x="282" y="142">• chat speed + hype emotes</text>
+    <text x="282" y="168">• timestamped comments</text>
+    <text x="282" y="194">• loudness spikes</text>
+    <text x="282" y="220">• on-screen action</text>
+    <text x="282" y="246">• speech hype · replay heat</text>
+    <text x="282" y="282" fill="#e040fb" font-weight="800">→ agent LOOKS before cutting</text>
+  </g>
+
+  <!-- edit -->
+  <rect x="514" y="85" width="230" height="222" rx="14" fill="#ffffff0d" stroke="#ffffff33"/>
+  <text x="629" y="112" text-anchor="middle" fill="#c77dff" font-size="15" font-weight="800">VIRAL EDIT 1080×1920</text>
+  <g fill="#e6e6f0" font-size="13">
+    <text x="534" y="142">• facecam split / blur layout</text>
+    <text x="534" y="168">• pop captions, 1–2 words</text>
+    <text x="534" y="194">• hook + seam title</text>
+    <text x="534" y="220">• zoom · shake · flash · SFX</text>
+    <text x="534" y="246">• dead air cut · −14 LUFS</text>
+    <text x="534" y="272">• emoji pops · color grade</text>
+  </g>
+
+  <!-- posts -->
+  <rect x="786" y="85" width="180" height="222" rx="14" fill="#ffffff0d" stroke="#ffffff33"/>
+  <text x="876" y="112" text-anchor="middle" fill="#c77dff" font-size="15" font-weight="800">POST COPY</text>
+  <g fill="#e6e6f0" font-size="13">
+    <text x="804" y="142">• 3 hooks per clip</text>
+    <text x="804" y="168">• per-platform voice</text>
+    <text x="804" y="194">• credit line</text>
+    <text x="804" y="220">• rule + campaign</text>
+    <text x="804" y="240">   check</text>
+  </g>
+
+  <!-- publish -->
+  <rect x="1008" y="85" width="162" height="222" rx="14" fill="#e040fb18" stroke="#e040fb"/>
+  <text x="1089" y="112" text-anchor="middle" fill="#e040fb" font-size="15" font-weight="800">SCHEDULE &amp; POST</text>
+  <g fill="#e6e6f0" font-size="13" text-anchor="middle">
+    <text x="1089" y="146">YouTube Shorts</text>
+    <text x="1089" y="170">TikTok</text>
+    <text x="1089" y="194">Instagram Reels</text>
+    <text x="1089" y="218">X</text>
+    <text x="1089" y="252" fill="#f3b8ff" font-size="12">your own browser</text>
+    <text x="1089" y="270" fill="#f3b8ff" font-size="12">session · free</text>
+  </g>
+
+  <g stroke="#b06bff" stroke-width="2.5" fill="none" marker-end="url(#a)">
+    <path d="M222 196 H258"/><path d="M474 196 H510"/><path d="M746 196 H782"/><path d="M968 196 H1004"/>
+  </g>
+
+  <!-- autopilot -->
+  <rect x="262" y="350" width="908" height="54" rx="14" fill="#7c4dff22" stroke="#b06bff"/>
+  <text x="716" y="383" text-anchor="middle" fill="#fff" font-size="15" font-weight="800">DAILY AUTOPILOT: one scheduled task in Claude / Codex / Gemini runs it all every day</text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "clipstudio",
+  "version": "1.0.0",
+  "description": "Clip live or recorded Twitch/YouTube streams into captioned vertical shorts and schedule them to YouTube, TikTok, Instagram, X.",
+  "contextFileName": "GEMINI.md"
+}
